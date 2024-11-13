@@ -1,5 +1,15 @@
 #main py
 
+#fungsi untuk memeriksa apakah input adalah bilangan positif
+def input_positif(prompt)
+    while True:
+        try:
+            nilai = float(input(prompt))
+            if nilai > 0:
+                return nilai
+        except ValueError:
+            print("input tidak valid, masukan angka.")
+
 # meminta input panjang dan lebar dari pengguna
 panjang = float(input("masukan panjang pergi panjang:"))
 lebar = float(input("masukan lebar persegi panjang:"))
