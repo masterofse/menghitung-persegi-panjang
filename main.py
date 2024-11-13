@@ -7,6 +7,8 @@ def input_positif(prompt)
             nilai = float(input(prompt))
             if nilai > 0:
                 return nilai
+            else:
+                print("nilai harus lebih besar dari 0. coba lagi.")
         except ValueError:
             print("input tidak valid, masukan angka.")
 
