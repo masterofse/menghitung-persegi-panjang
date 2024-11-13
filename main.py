@@ -7,5 +7,10 @@ lebar = float(input("masukan lebar persegi panjang:"))
 #menghitung luas
 luas = panjang * lebar
 
+#menampilkan hasil keliling
+keliling = 2 * (panjang + lebar)
+
+
 #menampilkan hasil
 print(f"luas persegi panjang adalah: {luas}")
+print(f"keliling persegi panjang adalah:{keliling}")
